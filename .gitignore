@@ -1,0 +1,28 @@
+# Local Python / test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Local circuit data and evidence
+backend/storage/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+# Patch history and snapshots
+*.bak
+*.before_*.bak
+CIRCUIT_STUDIO_*FIX*.py
+CIRCUIT_STUDIO_*PATCH*.py
+CIRCUIT_STUDIO_*UPDATE*.py
+CIRCUIT_STUDIO_*HOTFIX*.py
+CIRCUIT_STUDIO_*REPAIR*.py
+CIRCUIT_STUDIO_DIAGNOSTICS_V*.py
+# Other local files
+.DS_Store
+Thumbs.db
+node_modules/
